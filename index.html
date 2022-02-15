@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Investment Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="header-title">Crypto Investments Survey Form</h1>
+        <p id="description" class="description header-title">
+          Hello! We're happy to see you here. Thank you for your time.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">What's your Name?</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-control"
+            required
+            placeholder="Enter your Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">What's your Email?</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="email"
+            required
+            placeholder="Enter your Email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="age" id="number-label">What's your Age:</label>
+          <input
+            type="number"
+            name="age"
+            class="form-control"
+            id="number"
+            min="18"
+            max="99"
+            placeholder="Enter your Age"
+          />
+        </div>
+        <div class="form-group">
+          <label for="dropdown">What's your Income level?</label>
+          <select
+            name="dropdown"
+            name="income"
+            class="form-control"
+            id="dropdown"
+          >
+            <!-- <option disabled selected value>- Select your Income Level -</option> -->
+            <option value="zerotwenty">$0 - $20,000</option>
+            <option value="twentyfifty">$20 - $50,000</option>
+            <option value="fiftyhundred">$50,000 - $100,000</option>
+            <option value="hundredabove">$100,000 - above</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>When did you start investing in cryptocurrencies?</p>
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              name="start-invest"
+              value="lessthree"
+            />
+            Less than 3 months ago
+          </label>
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              name="start-invest"
+              value="threefive"
+            />
+            Less than 3 months ago
+          </label>
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              name="start-invest"
+              value="sixtwelve"
+            />
+            6-12 months ago
+          </label>
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              name="start-invest"
+              value="morethanyear"
+            />
+            More than a year ago
+          </label>
+        </div>
+        <div class="form-group">
+          <p>
+            Which of the following cryptocurrencies have you invested in this
+            year?
+          </p>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="btc"
+            />
+            <img
+              src="./img/btc.svg"
+              alt="bitcoin icon"
+              class="img-ico"
+            />Bitcoin
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="eth"
+            />
+            <img src="./img/eth.svg" alt="ethereum icon" class="img-ico" />
+            Ethereum
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="ada"
+            />
+            <img src="./img/ada.svg" alt="cardano icon" class="img-ico" />
+            Cardano
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="sol"
+            />
+            <img src="./img/sol.svg" alt="solana icon" class="img-ico" /> Solana
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="xrp"
+            />
+            <img src="./img/xrp.svg" alt="xrp icon" class="img-ico" /> XRP
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="doge"
+            />
+            <img src="./img/doge.svg" alt="dogecoin icon" class="img-ico" />
+            Dogecoin
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="ltc"
+            />
+            <img src="./img/ltc.svg" alt="litecoin icon" class="img-ico" />
+            Litecoin
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="uni"
+            />
+            <img src="./img/uni.svg" alt="uniswap icon" class="img-ico" />
+            Uniswap
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="dot"
+            />
+            <img
+              src="./img/dot.svg"
+              alt="polkadot icon"
+              class="img-ico"
+            />Polkadot
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="select-crypto"
+              value="zec"
+            />
+            <img src="./img/zec.svg" alt="zcash icon" class="img-ico" /> Zcash
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            name="comment"
+            id="comment"
+            class="input-textarea"
+            placeholder="Enter your comments here"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <input
+            type="submit"
+            id="submit"
+            class="submit-button"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+    <footer>coded by Jess Neil Basalo</footer>
+  </body>
+</html>
