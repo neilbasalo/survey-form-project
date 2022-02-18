@@ -1,6 +1,6 @@
 # survey-form-project
 
-Crypto Investments Survey Form for freeCodeCamp.
+Crypto Investments Survey Form Project for freeCodeCamp.
 
 This will be a part of my coding journey.
 
