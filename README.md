@@ -1,7 +1,7 @@
 # survey-form-project
 
-Crypto Investments Survey Form Project for freeCodeCamp.
+"Crypto Investments" Survey Form Project using HTML & CSS.
 
-This will be a part of my coding journey.
+You can check it out here:
 
-See it live here: https://neilbasalo.github.io/survey-form-project/
+https://neilbasalo.github.io/survey-form-project/
